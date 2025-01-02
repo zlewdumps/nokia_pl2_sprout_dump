@@ -1,0 +1,8 @@
+on property:sys.boot_completed=1 && property:ro.boot.simslot=2
+    #Set fqc xml path for fqc test
+    setprop fqc.xmlpath system/etc/fqc_${ro.boot.hwmodel}_ds.xml
+
+on property:sys.boot_completed=1 && property:ro.boot.simslot=1
+    #Set fqc xml path for fqc test
+    setprop fqc.xmlpath system/etc/fqc_${ro.boot.hwmodel}_ss.xml
+

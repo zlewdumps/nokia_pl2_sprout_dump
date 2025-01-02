@@ -1,0 +1,31 @@
+on fs
+    setprop ro.build.product PL2
+    setprop ro.product.brand Nokia
+    setprop persist.rcs.supported 0
+    setprop ro.product.locale en-GB
+    setprop ro.product.model.num 00WW
+    setprop persist.radio.sar.enabled 7
+    setprop ro.product.name Plate2_00WW
+    setprop ro.product.device PL2_sprout
+    setprop ro.product.model "Nokia 6.1"
+    setprop persist.anr.block_long_time 3
+    setprop ro.config.dbgcfgtool_config 2
+    setprop ro.product.system.brand Nokia
+    setprop persist.anr.block_short_time 1
+    setprop persist.anr.allow_dump_number 1
+    setprop ro.build.flavor Plate2_00WW-user
+    setprop persist.radio.VT_HYBRID_ENABLE 1 
+    setprop ro.product.system.name Plate2_00WW
+    setprop ro.product.system.device PL2_sprout
+    setprop ro.product.system.model "Nokia 6.1"
+    setprop ro.product.manufacturer "HMD Global"
+    setprop ro.telephony.default_network "22,22"
+    setprop ro.com.google.clientidbase android-hmd-rev2
+    setprop ro.product.system.manufacturer "HMD Global"
+    setprop setupwizard.feature.deferred_snooze_allow_never true
+on post-fs
+    setprop media.settings.xml "product/etc/media_profiles_vendor.xml"
+on fs
+	setprop ro.build.fingerprint Nokia/Plate2_00WW/PL2_sprout:10/QKQ1.190828.002/00WW_4_15O:user/release-keys
+	setprop ro.system.build.fingerprint Nokia/Plate2_00WW/PL2_sprout:10/QKQ1.190828.002/00WW_4_15O:user/release-keys
+	setprop ro.build.description "Plate2_00WW-user 10 QKQ1.190828.002 00WW_4_15O release-keys"
