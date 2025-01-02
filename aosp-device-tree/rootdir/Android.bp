@@ -1,0 +1,725 @@
+//
+// Copyright (C) 2025 The LineageOS Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+// Init scripts
+sh_binary {
+    name: "aheadset_mic_to_aheadset_recv_off.sh",
+    src: "bin/aheadset_mic_to_aheadset_recv_off.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "aheadset_mic_to_aheadset_recv_on.sh",
+    src: "bin/aheadset_mic_to_aheadset_recv_on.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "amic1_to_aheadset_recv_off.sh",
+    src: "bin/amic1_to_aheadset_recv_off.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "amic1_to_aheadset_recv_on.sh",
+    src: "bin/amic1_to_aheadset_recv_on.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "amic1_to_dheadset_recv_off.sh",
+    src: "bin/amic1_to_dheadset_recv_off.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "amic1_to_dheadset_recv_on.sh",
+    src: "bin/amic1_to_dheadset_recv_on.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "amic2_to_aheadset_recv_off.sh",
+    src: "bin/amic2_to_aheadset_recv_off.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "amic2_to_aheadset_recv_on.sh",
+    src: "bin/amic2_to_aheadset_recv_on.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "amic2_to_dheadset_recv_off.sh",
+    src: "bin/amic2_to_dheadset_recv_off.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "amic2_to_dheadset_recv_on.sh",
+    src: "bin/amic2_to_dheadset_recv_on.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "dheadset_mic_to_dheadset_recv_off.sh",
+    src: "bin/dheadset_mic_to_dheadset_recv_off.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "dheadset_mic_to_dheadset_recv_on.sh",
+    src: "bin/dheadset_mic_to_dheadset_recv_on.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "dmic1_to_headset_recv_off.sh",
+    src: "bin/dmic1_to_headset_recv_off.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "dmic1_to_headset_recv_on.sh",
+    src: "bin/dmic1_to_headset_recv_on.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "dmic2_to_headset_recv_off.sh",
+    src: "bin/dmic2_to_headset_recv_off.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "dmic2_to_headset_recv_on.sh",
+    src: "bin/dmic2_to_headset_recv_on.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "dmic3_to_headset_recv_off.sh",
+    src: "bin/dmic3_to_headset_recv_off.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "dmic3_to_headset_recv_on.sh",
+    src: "bin/dmic3_to_headset_recv_on.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "fqcaudioloopback.sh",
+    src: "bin/fqcaudioloopback.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "fqcaudioloopback_b2n.sh",
+    src: "bin/fqcaudioloopback_b2n.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "fqcaudioloopback_c1n.sh",
+    src: "bin/fqcaudioloopback_c1n.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "fqcaudioloopback_sd1.sh",
+    src: "bin/fqcaudioloopback_sd1.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "headset_mic_to_headset_recv_off.sh",
+    src: "bin/headset_mic_to_headset_recv_off.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "headset_mic_to_headset_recv_on.sh",
+    src: "bin/headset_mic_to_headset_recv_on.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.class_main.sh",
+    src: "bin/init.class_main.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.crda.sh",
+    src: "bin/init.crda.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.drg.lcm.sh",
+    src: "bin/init.drg.lcm.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.mdm.sh",
+    src: "bin/init.mdm.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.qcom.class_core.sh",
+    src: "bin/init.qcom.class_core.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.qcom.coex.sh",
+    src: "bin/init.qcom.coex.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.qcom.crashdata.sh",
+    src: "bin/init.qcom.crashdata.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.qcom.early_boot.sh",
+    src: "bin/init.qcom.early_boot.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.qcom.efs.sync.sh",
+    src: "bin/init.qcom.efs.sync.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.qcom.post_boot.sh",
+    src: "bin/init.qcom.post_boot.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.qcom.sdio.sh",
+    src: "bin/init.qcom.sdio.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.qcom.sensors.sh",
+    src: "bin/init.qcom.sensors.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.qcom.sh",
+    src: "bin/init.qcom.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.qcom.usb.sh",
+    src: "bin/init.qcom.usb.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.qti.can.sh",
+    src: "bin/init.qti.can.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.qti.fm.sh",
+    src: "bin/init.qti.fm.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.qti.ims.sh",
+    src: "bin/init.qti.ims.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.qti.qseecomd.sh",
+    src: "bin/init.qti.qseecomd.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.sat.smartamp.sh",
+    src: "bin/init.sat.smartamp.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "qca6234-service.sh",
+    src: "bin/qca6234-service.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "remove_data_ramdisk.sh",
+    src: "bin/remove_data_ramdisk.sh",
+    vendor: true,
+}
+
+// Init configuration files
+prebuilt_etc {
+    name: "android.hardware.nfc@1.2-service.sec.rc",
+    src: "etc/android.hardware.nfc@1.2-service.sec.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.B2N.target.rc",
+    src: "etc/init.B2N.target.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.B2N.tp.rc",
+    src: "etc/init.B2N.tp.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.C1N.lcm.rc",
+    src: "etc/init.C1N.lcm.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.C1N.target.rc",
+    src: "etc/init.C1N.target.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.C1N.tp.rc",
+    src: "etc/init.C1N.tp.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.CTL.target.rc",
+    src: "etc/init.CTL.target.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.DRG.nfc.rc",
+    src: "etc/init.DRG.nfc.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.DRG.target.rc",
+    src: "etc/init.DRG.target.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.DRG.tp.rc",
+    src: "etc/init.DRG.tp.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.HG1.target.rc",
+    src: "etc/init.HG1.target.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.HH1.target.rc",
+    src: "etc/init.HH1.target.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.HH6.target.rc",
+    src: "etc/init.HH6.target.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.PL2.target.rc",
+    src: "etc/init.PL2.target.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.PL2.tp.rc",
+    src: "etc/init.PL2.tp.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.PL2.wifi.rc",
+    src: "etc/init.PL2.wifi.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.SAT.target.rc",
+    src: "etc/init.SAT.target.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.SD1.target.rc",
+    src: "etc/init.SD1.target.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.SD6.target.rc",
+    src: "etc/init.SD6.target.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.SS2.target.rc",
+    src: "etc/init.SS2.target.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.TAS.target.rc",
+    src: "etc/init.TAS.target.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.b2n.fqc_audio.rc",
+    src: "etc/init.b2n.fqc_audio.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.c1n.fqc_audio.rc",
+    src: "etc/init.c1n.fqc_audio.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.c1n.poweroff_charging.rc",
+    src: "etc/init.c1n.poweroff_charging.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.fih.dbg.rc",
+    src: "etc/init.fih.dbg.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.fih.elabel.rc",
+    src: "etc/init.fih.elabel.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.fingerprint.elan.rc",
+    src: "etc/init.fingerprint.elan.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.fingerprint.focal9362_tas.rc",
+    src: "etc/init.fingerprint.focal9362_tas.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.fingerprint.gxfp3208_b2n.rc",
+    src: "etc/init.fingerprint.gxfp3208_b2n.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.fingerprint.gxfp3258_drg.rc",
+    src: "etc/init.fingerprint.gxfp3258_drg.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.fingerprint.gxfp5288_c1n.rc",
+    src: "etc/init.fingerprint.gxfp5288_c1n.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.msm.usb.configfs.rc",
+    src: "etc/init.msm.usb.configfs.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.nfc.nxp.rc",
+    src: "etc/init.nfc.nxp.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.nfc.sec.rc",
+    src: "etc/init.nfc.sec.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.qcom.battery.rc",
+    src: "etc/init.qcom.battery.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.qcom.emmc.rc",
+    src: "etc/init.qcom.emmc.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.qcom.factory.rc",
+    src: "etc/init.qcom.factory.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.qcom.fs.rc",
+    src: "etc/init.qcom.fs.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.qcom.lcm.rc",
+    src: "etc/init.qcom.lcm.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.qcom.ramdump.rc",
+    src: "etc/init.qcom.ramdump.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.qcom.rc",
+    src: "etc/init.qcom.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.qcom.sensor.rc",
+    src: "etc/init.qcom.sensor.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.qcom.target.rc",
+    src: "etc/init.qcom.target.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.qcom.tp.rc",
+    src: "etc/init.qcom.tp.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.qcom.usb.rc",
+    src: "etc/init.qcom.usb.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.sat.battery.rc",
+    src: "etc/init.sat.battery.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.sat.fqc_audio.rc",
+    src: "etc/init.sat.fqc_audio.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.sat.lcm.rc",
+    src: "etc/init.sat.lcm.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.sat.led.rc",
+    src: "etc/init.sat.led.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.sat.nfc.rc",
+    src: "etc/init.sat.nfc.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.sat.poweroff_charging.rc",
+    src: "etc/init.sat.poweroff_charging.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.sat.smartamp.rc",
+    src: "etc/init.sat.smartamp.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.sd1.fqc_audio.rc",
+    src: "etc/init.sd1.fqc_audio.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.sku.600WW.P2A.1.rc",
+    src: "etc/init.sku.600WW.P2A.1.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.sku.600WW.P2A.2.rc",
+    src: "etc/init.sku.600WW.P2A.2.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.sku.600WW.P2H.2.rc",
+    src: "etc/init.sku.600WW.P2H.2.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.sku.600WW.P2I.2.rc",
+    src: "etc/init.sku.600WW.P2I.2.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.sku.600WW.P2L.1.rc",
+    src: "etc/init.sku.600WW.P2L.1.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.sku.600WW.P2L.2.rc",
+    src: "etc/init.sku.600WW.P2L.2.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.sku.rc",
+    src: "etc/init.sku.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.target.rc",
+    src: "etc/init.target.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.vibrator.rc",
+    src: "etc/init.vibrator.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "vendor.nxp.hardware.nfc@1.2-service.rc",
+    src: "etc/vendor.nxp.hardware.nfc@1.2-service.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+// fstab
+prebuilt_etc {
+    name: "fstab.qcom",
+    src: "etc/fstab.qcom",
+    vendor: true,
+}

@@ -1,0 +1,14 @@
+# B2N_00WW_FIH-user 10 QKQ1.190828.002 00WW_4_15O release-keys
+- manufacturer: hmd global
+- platform: sdm660
+- codename: PL2_sprout
+- flavor: B2N_00WW_FIH-user
+- release: 10
+- id: QKQ1.190828.002
+- incremental: 00WW_4_15O
+- tags: release-keys
+- fingerprint: Nokia/Plate2_00WW/PL2_sprout:10/QKQ1.190828.002/00WW_4_15O:user/release-keys
+- is_ab: true
+- brand: Nokia
+- branch: B2N_00WW_FIH-user-10-QKQ1.190828.002-00WW_4_15O-release-keys
+- repo: nokia_pl2_sprout_dump
